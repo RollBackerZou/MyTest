@@ -11,6 +11,8 @@ namespace TestThread
     {
         static AutoResetEvent autoResetWork = new AutoResetEvent(false);
         static AutoResetEvent autoResetMain = new AutoResetEvent(false);
+
+       
         static void Main(string[] args)
         {
             TestParallel();
@@ -54,6 +56,13 @@ namespace TestThread
             autoResetWork.Set();
         }
 
+        static void ParallelForeach()
+        {
+            List<int> testList = new List<int>() { 1,55,25,11,556,57,14};
+            Parallel.ForEach(testList, item => {
+                Console.WriteLine(item);
+            });
+        }
         static void TestParallel()
         {
             Parallel.For(1, 100, (index,loopstate) =>
