@@ -47,6 +47,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCDemo", "MVCDemo\MVCDemo.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDelegate", "TestDelegate\TestDelegate.csproj", "{4F32CC46-8593-4FDB-8A06-7C6A0E064A4B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{612C3060-DAAC-46AB-8DA9-9D3BE2D8833E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageTest", "ImageTest\ImageTest.csproj", "{33BB0727-F2B9-46BB-8FD5-CD36027ED2CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -101,6 +105,10 @@ Global
 		{4F32CC46-8593-4FDB-8A06-7C6A0E064A4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F32CC46-8593-4FDB-8A06-7C6A0E064A4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F32CC46-8593-4FDB-8A06-7C6A0E064A4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33BB0727-F2B9-46BB-8FD5-CD36027ED2CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33BB0727-F2B9-46BB-8FD5-CD36027ED2CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33BB0727-F2B9-46BB-8FD5-CD36027ED2CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33BB0727-F2B9-46BB-8FD5-CD36027ED2CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

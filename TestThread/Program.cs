@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Collections.Concurrent;
 
 namespace TestThread
 {
@@ -11,11 +12,34 @@ namespace TestThread
     {
         static AutoResetEvent autoResetWork = new AutoResetEvent(false);
         static AutoResetEvent autoResetMain = new AutoResetEvent(false);
-
+        private static object o = new object();
+        private static List<Product> _Products { get; set; }
+        /// <summary>
+        /// 完全无锁，提供线程安全的新进先出的集合
+        /// </summary>
+        public static ConcurrentQueue<Product> conCurrentQueue { get; set; }
        
         static void Main(string[] args)
         {
-            TestParallel();
+
+            #region task
+            _Products = new List<Product>();
+            Task t1 = Task.Factory.StartNew(() => {
+                AddProducts();
+            });
+            Task t2 = Task.Factory.StartNew(() =>
+            {
+                AddProducts();
+            });
+            Task t3 = Task.Factory.StartNew(() =>
+            {
+                AddProducts();
+            });
+            Task.WaitAll(t1,t2,t3);
+            Console.WriteLine(_Products.Count);
+            #endregion
+
+            //TestParallel();
             //Console.WriteLine("开始，AutoResetEvent 同步");
 
             //string threadName = "线程 1";
@@ -78,5 +102,28 @@ namespace TestThread
                 }
                 );
         }
+
+        static void AddProducts()
+        {
+            Parallel.For(0, 1000, (i) =>
+            {
+                Product product = new Product();
+                product.Name = "name" + i;
+                product.Category = "Category" + i;
+                product.SellPrice = i;
+                lock(o)
+                {
+                    _Products.Add(product);
+                }              
+            });
+
+        }
+
+    }
+    class Product
+    {
+        public string Name { get; set; }
+        public string Category { get; set; }
+        public int SellPrice { get; set; }
     }
 }
