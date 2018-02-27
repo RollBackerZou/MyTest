@@ -1,0 +1,6 @@
+C:\TestMine\MyTest\TestThread\bin\Debug\TestThread.exe.config
+C:\TestMine\MyTest\TestThread\bin\Debug\TestThread.exe
+C:\TestMine\MyTest\TestThread\bin\Debug\TestThread.pdb
+C:\TestMine\MyTest\TestThread\obj\Debug\TestThread.exe
+C:\TestMine\MyTest\TestThread\obj\Debug\TestThread.pdb
+C:\TestMine\MyTest\TestThread\obj\Debug\TestThread.csprojResolveAssemblyReference.cache

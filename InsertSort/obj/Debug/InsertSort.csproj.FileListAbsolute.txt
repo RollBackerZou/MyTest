@@ -1,0 +1,6 @@
+C:\TestMine\MyTest\InsertSort\bin\Debug\InsertSort.exe.config
+C:\TestMine\MyTest\InsertSort\bin\Debug\InsertSort.exe
+C:\TestMine\MyTest\InsertSort\bin\Debug\InsertSort.pdb
+C:\TestMine\MyTest\InsertSort\obj\Debug\InsertSort.exe
+C:\TestMine\MyTest\InsertSort\obj\Debug\InsertSort.pdb
+C:\TestMine\MyTest\InsertSort\obj\Debug\InsertSort.csprojResolveAssemblyReference.cache

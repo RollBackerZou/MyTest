@@ -1,0 +1,7 @@
+C:\TestMine\MyTest\SqlLite\bin\Debug\SqlLite.exe.config
+C:\TestMine\MyTest\SqlLite\bin\Debug\SqlLite.exe
+C:\TestMine\MyTest\SqlLite\bin\Debug\SqlLite.pdb
+C:\TestMine\MyTest\SqlLite\bin\Debug\System.Data.SQLite.dll
+C:\TestMine\MyTest\SqlLite\obj\Debug\SqlLite.csprojResolveAssemblyReference.cache
+C:\TestMine\MyTest\SqlLite\obj\Debug\SqlLite.exe
+C:\TestMine\MyTest\SqlLite\obj\Debug\SqlLite.pdb

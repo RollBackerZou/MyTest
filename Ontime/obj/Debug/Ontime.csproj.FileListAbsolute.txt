@@ -1,0 +1,6 @@
+C:\TestMine\MyTest\Ontime\bin\Debug\Ontime.exe.config
+C:\TestMine\MyTest\Ontime\bin\Debug\Ontime.exe
+C:\TestMine\MyTest\Ontime\bin\Debug\Ontime.pdb
+C:\TestMine\MyTest\Ontime\obj\Debug\Ontime.csprojResolveAssemblyReference.cache
+C:\TestMine\MyTest\Ontime\obj\Debug\Ontime.exe
+C:\TestMine\MyTest\Ontime\obj\Debug\Ontime.pdb

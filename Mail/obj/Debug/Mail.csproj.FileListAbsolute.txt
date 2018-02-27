@@ -1,0 +1,12 @@
+C:\TestMine\MyTest\Mail\bin\Debug\Mail.exe.config
+C:\TestMine\MyTest\Mail\bin\Debug\Mail.exe
+C:\TestMine\MyTest\Mail\bin\Debug\Mail.pdb
+C:\TestMine\MyTest\Mail\obj\Debug\Mail.csprojResolveAssemblyReference.cache
+C:\TestMine\MyTest\Mail\obj\Debug\Mail.SendMail.resources
+C:\TestMine\MyTest\Mail\obj\Debug\Mail.Properties.Resources.resources
+C:\TestMine\MyTest\Mail\obj\Debug\Mail.csproj.GenerateResource.Cache
+C:\TestMine\MyTest\Mail\obj\Debug\Mail.exe
+C:\TestMine\MyTest\Mail\obj\Debug\Mail.pdb
+C:\TestMine\MyTest\Mail\obj\Debug\Mail.ImageTest.resources
+C:\TestMine\MyTest\Mail\obj\Debug\Mail.ExportWord.resources
+C:\TestMine\MyTest\Mail\bin\Debug\Microsoft.Office.Tools.Word.v4.0.Utilities.dll

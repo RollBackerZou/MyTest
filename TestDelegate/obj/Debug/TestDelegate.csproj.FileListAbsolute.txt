@@ -1,0 +1,6 @@
+C:\TestMine\MyTest\TestDelegate\bin\Debug\TestDelegate.exe.config
+C:\TestMine\MyTest\TestDelegate\bin\Debug\TestDelegate.exe
+C:\TestMine\MyTest\TestDelegate\bin\Debug\TestDelegate.pdb
+C:\TestMine\MyTest\TestDelegate\obj\Debug\TestDelegate.exe
+C:\TestMine\MyTest\TestDelegate\obj\Debug\TestDelegate.pdb
+C:\TestMine\MyTest\TestDelegate\obj\Debug\TestDelegate.csprojResolveAssemblyReference.cache

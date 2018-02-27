@@ -1,0 +1,6 @@
+C:\TestMine\MyTest\StreamTest\bin\Debug\StreamTest.exe.config
+C:\TestMine\MyTest\StreamTest\bin\Debug\StreamTest.exe
+C:\TestMine\MyTest\StreamTest\bin\Debug\StreamTest.pdb
+C:\TestMine\MyTest\StreamTest\obj\Debug\StreamTest.csprojResolveAssemblyReference.cache
+C:\TestMine\MyTest\StreamTest\obj\Debug\StreamTest.exe
+C:\TestMine\MyTest\StreamTest\obj\Debug\StreamTest.pdb

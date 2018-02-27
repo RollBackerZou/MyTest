@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f0b56556b47e49f4af93dc4241ef2762" Name="Diagram1">
+        <EntityTypeShape EntityType="TestSVSModel.C__MigrationHistory" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.AssetPositions" Width="1.5" PointX="10.5" PointY="68.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.Attachments" Width="1.5" PointX="18.5" PointY="44.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.BudgetaryDatas" Width="1.5" PointX="21.5" PointY="73.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.BudgetaryProperties" Width="1.5" PointX="19.25" PointY="78" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.Cashflows" Width="1.5" PointX="18.5" PointY="54.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.Comments" Width="1.5" PointX="13.25" PointY="73.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.CompanyInfoes" Width="1.5" PointX="2.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.DataLogChecks" Width="1.5" PointX="4.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.DataLogItems" Width="1.5" PointX="5.25" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.DataLogs" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.DeviceEvents" Width="1.5" PointX="18.5" PointY="62.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.EnergyYieldEstimations" Width="1.5" PointX="18.5" PointY="67" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.EnergyYields" Width="1.5" PointX="6.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.EnterApplications" Width="1.5" PointX="18.5" PointY="72.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.ExtenalWeatherDatas" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.ExternalDataWorkers" Width="1.5" PointX="0.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.Functions" Width="1.5" PointX="0.75" PointY="68" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.FundInvestors" Width="1.5" PointX="10.5" PointY="73.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.Funds" Width="1.5" PointX="8.25" PointY="69.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.FundTrades" Width="1.5" PointX="10.5" PointY="76.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.IncidentReports" Width="1.5" PointX="14" PointY="68" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.InitialCostInfoes" Width="1.5" PointX="21.5" PointY="68.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.InnerMessages" Width="1.5" PointX="8.25" PointY="76.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.LoanInfoes" Width="1.5" PointX="18.5" PointY="81.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.Localizations" Width="1.5" PointX="2.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.Maintainences" Width="1.5" PointX="18.5" PointY="84.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.Menus" Width="1.5" PointX="3" PointY="65.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.MonitoringInfoes" Width="1.5" PointX="18.5" PointY="89.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.NewsPosts" Width="1.5" PointX="8.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.OmLogs" Width="1.5" PointX="18.5" PointY="93.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.OperateLogs" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.Organizations" Width="1.5" PointX="3.75" PointY="69.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.PowerTrades" Width="1.5" PointX="18.5" PointY="97.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.ProjectImages" Width="1.5" PointX="18.5" PointY="101.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.ProjectLogs" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.ProjectPCS" Width="1.5" PointX="18.5" PointY="105.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.ProjectProfiles" Width="1.5" PointX="18.5" PointY="109.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.ProjectProperties" Width="1.5" PointX="21.5" PointY="78.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.ProjectPropertyPaymentDetails" Width="1.5" PointX="24.5" PointY="73.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.Projects" Width="1.5" PointX="16.25" PointY="68.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.PropertyCatalogs" Width="1.5" PointX="17" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.PropertyItemExtensions" Width="1.5" PointX="21.5" PointY="39" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.PropertyItems" Width="1.5" PointX="19.25" PointY="37.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.PropertyPayments" Width="1.5" PointX="24.5" PointY="69.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.PurchaseOrSells" Width="1.5" PointX="20.75" PointY="97.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.Roles" Width="1.5" PointX="0.75" PointY="74" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.RoleWithFunctions" Width="1.5" PointX="3" PointY="74" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.ScenarioInputs" Width="1.5" PointX="26.75" PointY="79.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.Scenarios" Width="1.5" PointX="24.5" PointY="77.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.ScheduleCatalogs" Width="1.5" PointX="25.25" PointY="61.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.ScheduleComments" Width="1.5" PointX="29.75" PointY="73.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.ScheduleDependences" Width="1.5" PointX="29.75" PointY="77.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.Schedules" Width="1.5" PointX="27.5" PointY="72.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.SubscibeProjects" Width="1.5" PointX="24.5" PointY="65.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.sysdiagrams" Width="1.5" PointX="10.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.TechnicalReports" Width="1.5" PointX="10.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.UserActivities" Width="1.5" PointX="8.25" PointY="144" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.UserClaims" Width="1.5" PointX="8.25" PointY="147.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.UserLogins" Width="1.5" PointX="8.25" PointY="150.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.Users" Width="1.5" PointX="6" PointY="71.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.WeatherDailies" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.WeatherStations" Width="1.5" PointX="14" PointY="78.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.WeeklyTasks" Width="1.5" PointX="24.5" PointY="82.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.Functions2" Width="1.5" PointX="4.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.WeatherDailies_1212" Width="1.5" PointX="12.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.WeatherDailies_1216" Width="1.5" PointX="12.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestSVSModel.WeeklyTasks_5_13" Width="1.5" PointX="0.75" PointY="13.75" IsExpanded="true" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_AssetPositions_dbo_Funds_FundId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_AssetPositions_dbo_Projects_ProjectId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_Attachments_dbo_Projects_ProjectId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_BudgetaryDatas_dbo_BudgetaryProperties_PropertyId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_BudgetaryDatas_dbo_Projects_ProjectId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_Cashflows_dbo_Projects_ProjectId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_Comments_dbo_Comments_ReplyCommentId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_Comments_dbo_Projects_ProjectId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_Comments_dbo_Users_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_DataLogItems_dbo_DataLogs_DataLog_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_DataLogs_dbo_OperateLogs_OperateLog_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_DeviceEvents_dbo_Projects_Project_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_DeviceEvents_dbo_Projects_Project_Id1" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_EnergyYieldEstimations_dbo_Projects_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_EnterApplications_dbo_Projects_ProjectId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_Menus_dbo_Functions_FunctionID" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_RoleWithFunctions_dbo_Functions_FunctionID" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_FundInvestors_dbo_Funds_FundId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_Funds_dbo_Users_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_FundTrades_dbo_Funds_FundId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_InitialCostInfoes_dbo_Projects_ProjectId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_InitialCostInfoes_dbo_PropertyItems_PropertyId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_InnerMessages_dbo_Users_FromUserId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_InnerMessages_dbo_Users_ToUserId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_LoanInfoes_dbo_Projects_ProjectId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_Maintainences_dbo_Projects_ProjectId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_Menus_dbo_Menus_ParentID" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_MonitoringInfoes_dbo_Projects_ProjectId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_OmLogs_dbo_Projects_ProjectId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_Organizations_dbo_Organizations_ParentID" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_PowerTrades_dbo_Projects_ProjectId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_PurchaseOrSells_dbo_PowerTrades_PowerTradeId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_ProjectImages_dbo_Projects_ProjectId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_ProjectPCS_dbo_Projects_ProjectId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_ProjectProfiles_dbo_Projects_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_ProjectProperties_dbo_Projects_ProjectID" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_ProjectProperties_dbo_PropertyItems_PropertyID" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_ProjectPropertyPaymentDetails_dbo_Projects_ProjectId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_ProjectPropertyPaymentDetails_dbo_PropertyItems_PropertyId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_Projects_dbo_Users_AppUser_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_Projects_dbo_WeatherStations_WeatherStationId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_PropertyPayments_dbo_Projects_ProjectId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_Scenarios_dbo_Projects_ProjectId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_Schedules_dbo_Projects_ProjectId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_SubscibeProjects_dbo_Projects_ProjectId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_WeeklyTasks_dbo_Projects_ProjectId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_PropertyCatalogs_dbo_PropertyCatalogs_ParentID" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_PropertyItems_dbo_PropertyCatalogs_CatalogId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_PropertyItemExtensions_dbo_PropertyItems_PropertyItem_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_PropertyItems_dbo_PropertyItems_ParentId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_PropertyPayments_dbo_PropertyItems_PropertyId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_ScenarioInputs_dbo_PropertyItems_PropertyId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_RoleWithFunctions_dbo_Roles_RoleID" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_ScenarioInputs_dbo_Scenarios_ScenarioId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_Scenarios_dbo_Users_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_ScheduleCatalogs_dbo_ScheduleCatalogs_ParentId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_Schedules_dbo_ScheduleCatalogs_CatalogId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_ScheduleComments_dbo_Schedules_ScheduleId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_ScheduleComments_dbo_Users_OwnerId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_ScheduleDependences_dbo_Schedules_DependenceId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_ScheduleDependences_dbo_Schedules_ScheduleId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_Schedules_dbo_Schedules_ParentId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_Schedules_dbo_Users_OwnerId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_SubscibeProjects_dbo_Users_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_UserActivities_dbo_Users_User_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_UserClaims_dbo_Users_UserID" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_UserLogins_dbo_Users_User_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.FK_dbo_WeeklyTasks_dbo_Users_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.IncidentReportProjects" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.OrganizationUser" ManuallyRouted="false" />
+        <AssociationConnector Association="TestSVSModel.UserRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

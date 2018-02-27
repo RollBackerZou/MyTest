@@ -1,0 +1,5 @@
+C:\TestMine\MyTest\ThreadTest\bin\Debug\ThreadTest.dll
+C:\TestMine\MyTest\ThreadTest\bin\Debug\ThreadTest.pdb
+C:\TestMine\MyTest\ThreadTest\obj\Debug\ThreadTest.csprojResolveAssemblyReference.cache
+C:\TestMine\MyTest\ThreadTest\obj\Debug\ThreadTest.dll
+C:\TestMine\MyTest\ThreadTest\obj\Debug\ThreadTest.pdb
