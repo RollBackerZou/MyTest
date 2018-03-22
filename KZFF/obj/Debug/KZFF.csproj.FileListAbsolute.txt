@@ -1,6 +1,5 @@
 C:\TestMine\MyTest\KZFF\bin\Debug\KZFF.exe.config
 C:\TestMine\MyTest\KZFF\bin\Debug\KZFF.exe
 C:\TestMine\MyTest\KZFF\bin\Debug\KZFF.pdb
-C:\TestMine\MyTest\KZFF\obj\Debug\KZFF.csprojResolveAssemblyReference.cache
 C:\TestMine\MyTest\KZFF\obj\Debug\KZFF.exe
 C:\TestMine\MyTest\KZFF\obj\Debug\KZFF.pdb

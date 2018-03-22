@@ -1,0 +1,9 @@
+C:\TestMine\MyTest\FileManagement\bin\Debug\FileManagement.exe.config
+C:\TestMine\MyTest\FileManagement\bin\Debug\FileManagement.exe
+C:\TestMine\MyTest\FileManagement\bin\Debug\FileManagement.pdb
+C:\TestMine\MyTest\FileManagement\obj\Debug\FileManagement.csprojResolveAssemblyReference.cache
+C:\TestMine\MyTest\FileManagement\obj\Debug\FileManagement.Form1.resources
+C:\TestMine\MyTest\FileManagement\obj\Debug\FileManagement.Properties.Resources.resources
+C:\TestMine\MyTest\FileManagement\obj\Debug\FileManagement.csproj.GenerateResource.Cache
+C:\TestMine\MyTest\FileManagement\obj\Debug\FileManagement.exe
+C:\TestMine\MyTest\FileManagement\obj\Debug\FileManagement.pdb

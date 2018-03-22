@@ -1,0 +1,8 @@
+C:\TestMine\MyTest\MyService\bin\Debug\MyService.exe.config
+C:\TestMine\MyTest\MyService\bin\Debug\MyService.exe
+C:\TestMine\MyTest\MyService\bin\Debug\MyService.pdb
+C:\TestMine\MyTest\MyService\obj\Debug\MyService.csprojResolveAssemblyReference.cache
+C:\TestMine\MyTest\MyService\obj\Debug\MyService.ProjectInstaller.resources
+C:\TestMine\MyTest\MyService\obj\Debug\MyService.csproj.GenerateResource.Cache
+C:\TestMine\MyTest\MyService\obj\Debug\MyService.exe
+C:\TestMine\MyTest\MyService\obj\Debug\MyService.pdb

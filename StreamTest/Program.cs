@@ -54,7 +54,7 @@ namespace StreamTest
                         }
                         else
                         {
-                            fsWrite.Write(buffer,0,buffer.Length);
+                            fsWrite.Write(buffer,0,rel);
                         }
                     }
                 }

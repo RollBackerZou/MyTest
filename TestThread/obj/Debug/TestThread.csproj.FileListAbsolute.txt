@@ -4,3 +4,5 @@ C:\TestMine\MyTest\TestThread\bin\Debug\TestThread.pdb
 C:\TestMine\MyTest\TestThread\obj\Debug\TestThread.exe
 C:\TestMine\MyTest\TestThread\obj\Debug\TestThread.pdb
 C:\TestMine\MyTest\TestThread\obj\Debug\TestThread.csprojResolveAssemblyReference.cache
+C:\TestMine\MyTest\TestThread\bin\Debug\Ninject.dll
+C:\TestMine\MyTest\TestThread\bin\Debug\Ninject.xml

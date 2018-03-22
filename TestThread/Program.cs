@@ -21,22 +21,53 @@ namespace TestThread
        
         static void Main(string[] args)
         {
+            #region thread
+           // LockTest.Instance.RunThread();
+            #endregion
 
+            #region Monitor  锁定一个对象(最好是私有的静态的引用对象（string除外）),Monitor必须和一个具体的对象相关联,它的所有方法都是静态的
+            //MonitorTest cell = new MonitorTest();
+            //CellProcduer proc = new CellProcduer(cell,10);
+            //CellConsumer consum = new CellConsumer(cell,10);
+
+            //Thread procT = new Thread(new ThreadStart(proc.ProcMethod));
+            //Thread consumT = new Thread(new ThreadStart(consum.ConsMethod));
+            //try
+            //{
+            //    procT.Start();
+            //    consumT.Start();
+            //    procT.Join();
+            //    consumT.Join();
+            //}
+            //catch(Exception)
+            //{
+
+            //}
+
+            Monster monster = new Monster(2000);
+            Attack attack1 = new Attack() { Name="浪法",Power = 250};
+            Attack attack2 = new Attack() { Name = "剑圣", Power = 300 };
+            Thread t1 = new Thread(attack1.MagicAttack);
+            Thread t2 = new Thread(attack2.PhysicalAttack);
+            t1.Start(monster);
+            t2.Start(monster);
+            #endregion
+            
             #region task
-            _Products = new List<Product>();
-            Task t1 = Task.Factory.StartNew(() => {
-                AddProducts();
-            });
-            Task t2 = Task.Factory.StartNew(() =>
-            {
-                AddProducts();
-            });
-            Task t3 = Task.Factory.StartNew(() =>
-            {
-                AddProducts();
-            });
-            Task.WaitAll(t1,t2,t3);
-            Console.WriteLine(_Products.Count);
+            //_Products = new List<Product>();
+            //Task t1 = Task.Factory.StartNew(() => {
+            //    AddProducts();
+            //});
+            //Task t2 = Task.Factory.StartNew(() =>
+            //{
+            //    AddProducts();
+            //});
+            //Task t3 = Task.Factory.StartNew(() =>
+            //{
+            //    AddProducts();
+            //});
+            //Task.WaitAll(t1,t2,t3);
+            //Console.WriteLine(_Products.Count);
             #endregion
 
             //TestParallel();

@@ -3,3 +3,8 @@ C:\TestMine\MyTest\ClassTest\bin\Debug\ClassTest.exe
 C:\TestMine\MyTest\ClassTest\bin\Debug\ClassTest.pdb
 C:\TestMine\MyTest\ClassTest\obj\Debug\ClassTest.exe
 C:\TestMine\MyTest\ClassTest\obj\Debug\ClassTest.pdb
+C:\TestMine\MyTest\ClassTest\bin\Debug\Autofac.dll
+C:\TestMine\MyTest\ClassTest\bin\Debug\Ninject.dll
+C:\TestMine\MyTest\ClassTest\bin\Debug\Autofac.xml
+C:\TestMine\MyTest\ClassTest\bin\Debug\Ninject.xml
+C:\TestMine\MyTest\ClassTest\obj\Debug\ClassTest.csprojResolveAssemblyReference.cache

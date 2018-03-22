@@ -11,18 +11,23 @@ namespace MyTest
     {
         static void Main(string[] args)
         {
+
+            HashPractice hp = new HashPractice();
+            hp.HashTableMethod();
+
+
             //var list = Enum.GetNames(typeof(TestEnum)).ToList();
             //foreach(var item in list)
             //{
             //    Console.WriteLine(item);
             //}
 
-            string s = "a , -- b";
-            string[] array = s.Split(new char[]{' ',',','-'},StringSplitOptions.RemoveEmptyEntries);
-            foreach(var item in array)
-            {
-                Console.WriteLine(item);
-            }
+            //string s = "a , -- b";
+            //string[] array = s.Split(new char[]{' ',',','-'},StringSplitOptions.RemoveEmptyEntries);
+            //foreach(var item in array)
+            //{
+            //    Console.WriteLine(item);
+            //}
 
             Console.ReadKey();
             //IAnimal animal = new Animal();

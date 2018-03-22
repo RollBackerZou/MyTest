@@ -1,0 +1,6 @@
+C:\TestMine\MyTest\ImageTest\bin\Debug\ImageTest.exe.config
+C:\TestMine\MyTest\ImageTest\bin\Debug\ImageTest.exe
+C:\TestMine\MyTest\ImageTest\bin\Debug\ImageTest.pdb
+C:\TestMine\MyTest\ImageTest\obj\Debug\ImageTest.csprojResolveAssemblyReference.cache
+C:\TestMine\MyTest\ImageTest\obj\Debug\ImageTest.exe
+C:\TestMine\MyTest\ImageTest\obj\Debug\ImageTest.pdb

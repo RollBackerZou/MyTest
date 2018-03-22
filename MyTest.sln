@@ -3,37 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTest", "MyTest\MyTest.csproj", "{058FBF58-B41A-41B7-A8A4-BBF24EA201A9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyKnowledge", "MyTest\DailyKnowledge.csproj", "{058FBF58-B41A-41B7-A8A4-BBF24EA201A9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertSort", "InsertSort\InsertSort.csproj", "{27C067FD-1A6A-409A-B471-8FA969A02E83}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestThread", "TestThread\TestThread.csproj", "{1EA2BA61-B76C-4DF2-8A15-BDE193E7EC38}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mail", "Mail\Mail.csproj", "{07095559-F550-43EF-B6FB-011F66D8E06F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlLite", "SqlLite\SqlLite.csproj", "{DF06E421-3AE1-4D77-97BE-0D0DC3EB09E1}"
-EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "UploadExcel", "http://localhost:64089", "{94FFD972-5D13-4E42-ADE0-7AD4359AEB6D}"
-	ProjectSection(WebsiteProperties) = preProject
-		UseIISExpress = "true"
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_64089"
-		Debug.AspNetCompiler.PhysicalPath = "D:\Rabbits\UploadExcel\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64089\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_64089"
-		Release.AspNetCompiler.PhysicalPath = "D:\Rabbits\UploadExcel\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64089\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "D:\Rabbits\UploadExcel\"
-		DefaultWebSiteLanguage = "Visual C#"
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassTest", "ClassTest\ClassTest.csproj", "{AE90FA58-0053-463B-A635-66408DB00067}"
 EndProject
@@ -43,8 +19,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyService", "MyService\MySe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamTest", "StreamTest\StreamTest.csproj", "{ED259E70-DDD4-42E3-BFDE-39EAC0243EAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCDemo", "MVCDemo\MVCDemo.csproj", "{AE6A63DC-DE25-44AD-BD43-C036C53CFCAC}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDelegate", "TestDelegate\TestDelegate.csproj", "{4F32CC46-8593-4FDB-8A06-7C6A0E064A4B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{612C3060-DAAC-46AB-8DA9-9D3BE2D8833E}"
@@ -52,6 +26,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageTest", "ImageTest\ImageTest.csproj", "{33BB0727-F2B9-46BB-8FD5-CD36027ED2CA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KZFF", "KZFF\KZFF.csproj", "{FED4FD77-7411-4D8A-8541-993A39DC4DDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileManagement", "FileManagement\FileManagement.csproj", "{5D88F185-AFF4-4A71-8530-D978098D208A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisTest", "RedisTest\RedisTest.csproj", "{16B30824-FB81-4028-94EB-1AF28044056A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,14 +53,6 @@ Global
 		{07095559-F550-43EF-B6FB-011F66D8E06F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07095559-F550-43EF-B6FB-011F66D8E06F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07095559-F550-43EF-B6FB-011F66D8E06F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DF06E421-3AE1-4D77-97BE-0D0DC3EB09E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DF06E421-3AE1-4D77-97BE-0D0DC3EB09E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DF06E421-3AE1-4D77-97BE-0D0DC3EB09E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DF06E421-3AE1-4D77-97BE-0D0DC3EB09E1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{94FFD972-5D13-4E42-ADE0-7AD4359AEB6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{94FFD972-5D13-4E42-ADE0-7AD4359AEB6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{94FFD972-5D13-4E42-ADE0-7AD4359AEB6D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{94FFD972-5D13-4E42-ADE0-7AD4359AEB6D}.Release|Any CPU.Build.0 = Debug|Any CPU
 		{AE90FA58-0053-463B-A635-66408DB00067}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AE90FA58-0053-463B-A635-66408DB00067}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE90FA58-0053-463B-A635-66408DB00067}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -99,10 +69,6 @@ Global
 		{ED259E70-DDD4-42E3-BFDE-39EAC0243EAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED259E70-DDD4-42E3-BFDE-39EAC0243EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED259E70-DDD4-42E3-BFDE-39EAC0243EAB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AE6A63DC-DE25-44AD-BD43-C036C53CFCAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AE6A63DC-DE25-44AD-BD43-C036C53CFCAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AE6A63DC-DE25-44AD-BD43-C036C53CFCAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AE6A63DC-DE25-44AD-BD43-C036C53CFCAC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4F32CC46-8593-4FDB-8A06-7C6A0E064A4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4F32CC46-8593-4FDB-8A06-7C6A0E064A4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F32CC46-8593-4FDB-8A06-7C6A0E064A4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -115,6 +81,14 @@ Global
 		{FED4FD77-7411-4D8A-8541-993A39DC4DDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FED4FD77-7411-4D8A-8541-993A39DC4DDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FED4FD77-7411-4D8A-8541-993A39DC4DDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D88F185-AFF4-4A71-8530-D978098D208A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D88F185-AFF4-4A71-8530-D978098D208A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D88F185-AFF4-4A71-8530-D978098D208A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D88F185-AFF4-4A71-8530-D978098D208A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16B30824-FB81-4028-94EB-1AF28044056A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16B30824-FB81-4028-94EB-1AF28044056A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16B30824-FB81-4028-94EB-1AF28044056A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16B30824-FB81-4028-94EB-1AF28044056A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

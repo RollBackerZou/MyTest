@@ -1,0 +1,5 @@
+C:\TestMine\MyTest\MyTest\bin\Debug\MyTest.exe.config
+C:\TestMine\MyTest\MyTest\bin\Debug\MyTest.exe
+C:\TestMine\MyTest\MyTest\bin\Debug\MyTest.pdb
+C:\TestMine\MyTest\MyTest\obj\Debug\MyTest.exe
+C:\TestMine\MyTest\MyTest\obj\Debug\MyTest.pdb
