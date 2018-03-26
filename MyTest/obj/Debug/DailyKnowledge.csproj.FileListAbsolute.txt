@@ -3,3 +3,6 @@ C:\TestMine\MyTest\MyTest\bin\Debug\MyTest.exe
 C:\TestMine\MyTest\MyTest\bin\Debug\MyTest.pdb
 C:\TestMine\MyTest\MyTest\obj\Debug\MyTest.exe
 C:\TestMine\MyTest\MyTest\obj\Debug\MyTest.pdb
+C:\TestMine\MyTest\MyTest\bin\Debug\ClassTest.exe
+C:\TestMine\MyTest\MyTest\bin\Debug\ClassTest.pdb
+C:\TestMine\MyTest\MyTest\obj\Debug\DailyKnowledge.csprojResolveAssemblyReference.cache

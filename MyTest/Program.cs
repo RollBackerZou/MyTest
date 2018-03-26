@@ -11,9 +11,12 @@ namespace MyTest
     {
         static void Main(string[] args)
         {
+            ExpressionLam.LambdaMethod();
+            //XMLTest.EditConfig("server=10.1.1.27;", "DefaultConn");
+            //RefelectTEST.MyMethod();
 
-            HashPractice hp = new HashPractice();
-            hp.HashTableMethod();
+            //HashPractice hp = new HashPractice();
+            //hp.HashTableMethod();
 
 
             //var list = Enum.GetNames(typeof(TestEnum)).ToList();
