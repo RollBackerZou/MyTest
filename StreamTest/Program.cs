@@ -10,10 +10,14 @@ namespace StreamTest
     class Program
     {
         static void Main(string[] args)
-        {
+        {         
+            int[] nums = new int[]{2,7,11,15};
+            string s = "bbbb";
+            var list = nums.ToList();
+            list.Where(m => m != 3).ToArray();
             //WriteText();
             //ReadText();
-            CopyTxt();
+            //CopyTxt();
             Console.ReadKey();
         }
 

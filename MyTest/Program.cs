@@ -11,7 +11,17 @@ namespace MyTest
     {
         static void Main(string[] args)
         {
-            ExpressionLam.LambdaMethod();
+            object obj1 = defaultTest.GetDefault<int>();
+            object obj2 = defaultTest.GetDefault<string>();
+            object obj3 = defaultTest.GetDefault<structDemo>();
+
+            //Task task1 = new Task(QueueTest.CreateOrder);
+            //task1.Start();
+
+            //Task task2 = new Task(QueueTest.DealOrder);
+            //task2.Start();
+
+            //ExpressionLam.LambdaMethod();
             //XMLTest.EditConfig("server=10.1.1.27;", "DefaultConn");
             //RefelectTEST.MyMethod();
 
